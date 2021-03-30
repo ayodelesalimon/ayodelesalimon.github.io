@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>A Simple Calculator</h1>
+    </header>
+    <div>
+        <div class="container">
+            <input id="result"><br>
+         
+        </div>
+        <div class="container">
+            <button class="site" onclick="calcFunc(1)">1</button>
+            <button class="site" onclick="calcFunc(2)">2</button>
+            <button class="site" onclick="calcFunc(3)">3</button>
+            <button class="site" onclick="calcFunc(10)">+</button><br>
+        </div>
+        <div class="container">
+            <button class="site" onclick="calcFunc(4)">4</button>
+            <button class="site" onclick="calcFunc(5)">5</button>
+            <button class="site" onclick="calcFunc(6)">6</button>
+            <button class="site" onclick="calcFunc(11)">-</button><br>
+        </div>
+        <div class="container">
+            <button class="site" onclick="calcFunc(7)">7</button>
+            <button class="site" onclick="calcFunc(8)">8</button>
+            <button class="site" onclick="calcFunc(9)">9</button>
+            <button class="site" onclick="calcFunc(12)">x</button><br>
+        </div>
+        <div class="container">
+            <button class="site" onclick="calcFunc(0)">0</button>
+            <button class="site" onclick="calcFunc(10)">.</button>
+            <button class="site" onclick="erase()">c</button>
+            <button class="site" onclick="calcFunc(13)">/</button><br>
+        </div>
+            <div class="run-btn">
+                <button style="width: 100px;background: rgb(199, 199, 199);" class="run" onclick="run()">=</button>
+            </div>
+       
+    </div>
+
+    <footer class="footer">Made with ❤️ by <a href="http://github.com/ayodelesalimon">Ayodele Salimonu</a></footer>
+</body>
+</html>
